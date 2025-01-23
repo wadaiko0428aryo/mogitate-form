@@ -1,0 +1,134 @@
+
+    .detail-form {
+        width: 700px;
+        margin: 0 auto;
+        padding: 4rem 0 2rem;
+        position: relative;
+    }
+
+    .detail__ttl {
+        margin-bottom: 1rem;
+        font-size: 12px;
+    }
+
+    .detail__back-btn {
+        text-decoration: none;
+        color: rgb(111, 184, 252);
+        font-weight: bold;
+    }
+
+    .detail-form__group{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .detail-form__group{
+        font-size: 14px;
+    }
+
+
+
+    /* 商品詳細ページ、新規登録ページ共通 */
+    .detail-form__edit-input {
+        width: 100%;
+    }
+
+    .detail-form__edit-input,
+    .products-form__description-txt{
+        width: 100%;
+        margin-top: .75rem;
+        padding: .75rem .5rem;
+        border-radius: 5px;
+        border: 1px solid rgb(231, 231, 230);
+        font-size: 12px;
+        appearance: none;
+    }
+
+    .detail-form__edit-input::placeholder,
+    .products-form__description-txt::placeholder {
+        color: rgb(192, 191, 190);
+    }
+
+    .detail-form__image-input{
+
+    }
+
+    .detail-form__edit-seasons {
+        margin-top: .75rem;
+    }
+
+    .checkbox {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border: 2px solid rgb(73, 73, 73);
+        appearance: none;
+        -webkit-appearance: none;
+        outline: none;
+        cursor: pointer;
+    }
+
+    .checkbox:checked {
+        background-color: rgb(73, 73, 73);
+    }
+
+    .checkbox:checked::after {
+        content: '✔';
+        color: white;
+        font-size: 14px;
+        position: relative;
+        top: -2px;
+        left: 4px;
+    }
+
+    .checkbox--label {
+        margin-left: .25rem;
+        margin-right: 2rem;
+    }
+
+    .detail-form__btn-back{
+        width: 160px;
+        font-size: 14px;
+        text-align: center;
+        font-weight: bold;
+        text-decoration: none;
+        border-radius: 3px;
+        padding: 1rem 0;
+        color: #111;
+        background-color: rgb(224, 223, 222);
+        margin-right: 1rem;
+    }
+
+    .detail-form__btn-back:hover {
+        background-color: rgb(192, 191, 190);
+    }
+
+    .products-form__back-btn {
+        width: 160px;
+        font-size: 14px;
+        font-weight: bold;
+        background: rgb(245, 200, 0);
+        border-radius: 3px;
+        padding: .75rem 0;
+        cursor: pointer;
+        border: none;
+    }
+
+    .products-form__back-btn:hover {
+        background-color: rgb(221, 180, 0);
+    }
+    .detail__delete-btn {
+        cursor: pointer;
+        border: none;
+        font-size: 20px;
+        color: rgb(248, 21, 26);
+        position: absolute;
+        bottom: 40px;
+        right: 10px;
+    }
+
+    .btn{
+        display: flex;
+        justify-content: space-between;
+    }

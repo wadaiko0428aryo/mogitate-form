@@ -1,0 +1,131 @@
+.form__input-file {
+    width: 100%;
+}
+
+.form__input-field,
+.form__input-field--textarea {
+    width: 100%;
+    margin-top: .75rem;
+    padding: .75rem .5rem;
+    border-radius: 5px;
+    border: 1px solid rgb(231, 231, 230);
+    font-size: 12px;
+    appearance: none;
+}
+
+.form__input-field::placeholder,
+.form__input-field--textarea::placeholder {
+    color: rgb(192, 191, 190);
+}
+
+.form__checkbox--group {
+    margin-top: .75rem;
+}
+
+.form__checkbox {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid rgb(73, 73, 73);
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.form__checkbox:checked {
+    background-color: rgb(73, 73, 73);
+}
+
+.form__checkbox:checked::after {
+    content: '✔';
+    color: white;
+    font-size: 14px;
+    position: relative;
+    top: -2px;
+    left: 4px;
+}
+
+.form__checkbox--label {
+    margin-left: .25rem;
+    margin-right: 2rem;
+}
+
+.form__btn-back {
+    width: 160px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 1rem 0;
+    color: #111;
+    background-color: rgb(224, 223, 222);
+    margin-right: 1rem;
+}
+
+.form__btn-back:hover {
+    background-color: rgb(192, 191, 190);
+}
+
+.form__btn-submit {
+    width: 160px;
+    font-size: 14px;
+    font-weight: bold;
+    background: rgb(245, 200, 0);
+    border-radius: 3px;
+    padding: .75rem 0;
+    cursor: pointer;
+    border: none;
+}
+
+.form__btn-submit:hover {
+    background-color: rgb(221, 180, 0);
+}
+.register-form {
+    width: 800px;
+    margin: 0 auto;
+    padding: 4rem 0 2rem;
+}
+
+.register__title {
+    font-size: 24px;
+    margin-bottom: 3rem;
+}
+
+.register-form__group
+{
+    display: flex;
+    align-items: center;
+}
+
+.register-form__label {
+    font-size: 14px;
+}
+
+.register-form__required {
+    background-color: rgb(248, 21, 26);
+    color: rgb(224, 223, 222);
+    padding: 2px 4px;
+    font-size: 12px;
+    margin-left: .5rem;
+}
+
+.register-from__input,
+.register-form__textarea {
+    width: 100%;
+    margin-top: .5rem;
+    padding: .75rem .5rem;
+    border: 2px solid rgb(231, 231, 230);
+}
+
+.register__span {
+    font-size: 12px;
+    color: rgb(248, 21, 26);
+    font-weight: bold;
+    margin-left: .5rem;
+}
+
+.register__checkbox {
+    margin-top: .5rem;
+}

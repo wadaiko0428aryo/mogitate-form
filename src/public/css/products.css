@@ -1,0 +1,244 @@
+  svg.w-5.h-5 {
+      /*paginateメソッドの矢印の大きさ調整のために追加*/
+      width: 30px;
+      height: 30px;
+  }
+
+    .products-form {
+      max-width: 1150px;
+      margin: 0 auto;
+      padding-top: 3.25rem;
+      padding-bottom: 4rem;
+    }
+  
+    .products-form__header {
+      font-size: 24px;
+    }
+  
+    .products-form__register-btn {
+      font-size: 12px;
+      font-weight: bold;
+      background: rgb(255, 169, 41);
+      color: #111;
+      border: none;
+      border-radius: 5px;
+      padding: 1rem;
+      cursor: pointer;
+      text-decoration: none;
+    }
+  
+        .products-form__register-btn:hover {
+      background-color: rgb(223, 148, 37);
+    }
+  
+    .products-form__view {
+      display: grid;
+      grid-template-columns: 190px 1fr;
+      margin: 1rem 0;
+      gap: 1.5rem;
+    }
+  
+    .products-form__search-group{
+      width: 100%;
+    }
+  
+    .products-form__search-input {
+      width: 100%;
+      padding: .75rem;
+      font-size: 10px;
+      margin-bottom: 1.5em;
+      border: 1px solid rgb(231, 231, 230);
+      border-radius: 30px;
+    }
+  
+    .products-form__search-input::placeholder {
+      color: rgb(192, 191, 190);
+    }
+  
+    .products-form__search-btn {
+      width: 100%;
+      padding: .5rem 0;
+      font-size: 12px;
+      font-weight: bold;
+      margin-bottom: 2rem;
+      background: rgb(245, 200, 0);
+      border-radius: 5px;
+      cursor: pointer;
+      border: none;
+    }
+  
+    .products-form__search-btn:hover {
+      background-color: #e6b800;
+    }
+  
+    .products-form__order-title {
+      font-size: 16px;
+      font-weight: bold;
+      margin-bottom: 1.25rem;
+      display: block;
+    }
+  
+    .product-lists__search__form--pull-down {
+      position: relative;
+    }
+  
+    .product-lists__search__form--pull-down select {
+      color: #ccc;
+      background: #fff;
+      border: 1px solid rgb(231, 231, 230);
+      border-radius: 5px;
+      width: 100%;
+      padding: .5rem;
+      font-size: 10px;
+      appearance: none;
+      background: #fff url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 140"><polygon points="70,100 100,40 40,40" fill="rgb(190,177,167)"/></svg>') no-repeat right 8px center;
+      background-size: 16px;
+      cursor: pointer;
+    }
+  
+    .product-lists__search__form--pull-down select:focus {
+      background: #fff url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 140"><polygon points="70,40 100,100 40,100" fill="rgb(190,177,167)"/></svg>') no-repeat right 8px center;
+      background-size: 16px;
+      color: #111;
+    }
+  
+    .product-lists__search__form--reset {
+      height: 60px;
+      border-bottom: 2px solid rgb(231, 231, 230);
+    }
+  
+    .product-lists__search__form--reset-btn {
+      width: 130px;
+      margin-top: 1.25em;
+      padding: .75em 0;
+      border: 2px solid rgb(245, 200, 0);
+      background-color: rgb(255, 255, 255);
+      border-radius: 30px;
+      font-size: 14px;
+    }
+  
+    .product-lists__search__form--reset-btn-txt {
+      border: none;
+      width: 90px;
+      margin-left: 12px;
+    }
+  
+    .product-lists__search__form--reset-btn-close {
+      background-color: rgb(255, 255, 255);
+      color: rgb(245, 200, 0);
+      border: none;
+      cursor: pointer;
+    }
+  
+.product-card {
+  width: 300px;
+  min-width: 230px;
+  height: 260px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px gray;
+}
+
+.product-card__detail-link {
+  text-decoration: none;
+  color: #111;
+}
+
+.product-card__img {
+  border-radius: 5px 5px 0 0;
+  width: 300px;
+  height: 200px;
+  max-height: 200px;
+  object-fit: cover;
+  transition: opacity 0.3s ease;
+}
+
+.product-card__img:hover {
+  opacity: 0.8;
+}
+
+.product-card__txt {
+  padding: 1rem;
+  font-size: 18px;
+  font-weight: 500;
+}
+  
+    .pagination {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+    }
+  
+    .pagination li:not(.active) {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      overflow: hidden;
+      background: #fff;
+      font-size: 16px;
+      color: #111;
+    }
+  
+    .pagination li:not(.active):hover {
+      background: rgb(224, 223, 222);
+    }
+  
+    .pagination a {
+      color: #111;
+      text-decoration: none;
+    }
+  
+    .pagination__link {
+      text-decoration: none;
+    }
+  
+    .active {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      overflow: hidden;
+      background: rgb(245, 200, 0);
+      font-size: 16px;
+      color: #fff;
+    }
+  
+        .pagination {
+          display: flex;
+          justify-content: center;
+          list-style: none;
+        }
+    
+        .pagination li:not(.active) {
+          width: 20px;
+          height: 20px;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-wrap: wrap;
+          overflow: hidden;
+          background: #fff;
+          font-size: 16px;
+          color: #111;
+        }
+    
+        .pagination li:not(.active):hover {
+          background: rgb(224, 223, 222);
+        }
+    
+        .pagination a {
+          color: #111;
+          text-decoration: none;
+        }
+    
+        .pagination__link {
+          text-decoration: none;
+        }
